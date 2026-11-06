@@ -1,0 +1,75 @@
+{
+ "Bear": {
+  "arr_m12": 3180479.61,
+  "arr_m24": 6267029.67,
+  "month_target_hit": null,
+  "min_cash": -4896343.0,
+  "extra_cash_needed": 4896343.0,
+  "cash_out_month": 13,
+  "cac_per_policy": 400.0,
+  "ltv": 1008.0,
+  "ltv_to_cac": 2.52,
+  "payback_months": 19.05
+ },
+ "Base": {
+  "arr_m12": 5408846.23,
+  "arr_m24": 14381090.31,
+  "month_target_hit": 20,
+  "min_cash": -1301561.53,
+  "extra_cash_needed": 1301561.53,
+  "cash_out_month": 19,
+  "cac_per_policy": 266.67,
+  "ltv": 1573.68,
+  "ltv_to_cac": 5.9,
+  "payback_months": 10.7
+ },
+ "Bull": {
+  "arr_m12": 8860205.38,
+  "arr_m24": 31648228.84,
+  "month_target_hit": 14,
+  "min_cash": 3158215.21,
+  "extra_cash_needed": 0.0,
+  "cash_out_month": null,
+  "cac_per_policy": 188.89,
+  "ltv": 2500.0,
+  "ltv_to_cac": 13.24,
+  "payback_months": 6.48
+ },
+ "tornado_arr_m18": {
+  "base": 9033329,
+  "drivers": [
+   {
+    "driver": "Revenue per policy (premium x commission)",
+    "low": 7226664,
+    "high": 10839995
+   },
+   {
+    "driver": "Lead-to-bind conversion",
+    "low": 7401040,
+    "high": 10665618
+   },
+   {
+    "driver": "Lead growth, month on month",
+    "low": 7974713,
+    "high": 10271111
+   },
+   {
+    "driver": "Annual renewal rate",
+    "low": 8771187,
+    "high": 9295426
+   }
+  ]
+ },
+ "monte_carlo": {
+  "simulations": 5000,
+  "arr_m24_p10_p50_p90": [
+   9601603,
+   14256619,
+   21518768
+  ],
+  "p_target_by_m18": 33.1,
+  "p_target_by_m24": 87.8,
+  "p_cash_below_zero": 63.4,
+  "p_cash_below_1m": 73.6
+ }
+}
